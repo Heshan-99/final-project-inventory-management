@@ -1,0 +1,16 @@
+SELECT
+ims_item_details.item_name,
+ims_cake_config_details.usage_qty,
+ims_cake_config_details.cake_id,
+IFNULL(
+		ims_main_stock_summary.item_last_stock_price,
+		'0'
+	) AS costPrice,
+cake.price
+FROM
+ims_cake_config_details
+INNER JOIN ims_item_details ON ims_cake_config_details.item_id = ims_item_details.item_id
+LEFT JOIN ims_main_stock_summary ON ims_item_details.item_id = ims_main_stock_summary.item_id
+INNER JOIN cake ON ims_cake_config_details.cake_id = cake.id
+WHERE
+	ims_cake_config_details.cake_id = '10'
