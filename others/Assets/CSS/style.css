@@ -1,0 +1,106 @@
+/* .my-btn{
+    background-color : #009;
+    color : white;
+    padding : 4px 8px;
+    text-decoration:none;
+    font-family : Poppins, sans-serif;
+    border-radius : 5px;
+}
+.my-btn:hover{
+    background-color: #00f;
+}
+
+.my-del-btn{
+    background-color : #800;
+    color : white;
+    padding :0.3px 2px;
+    text-decoration:none;
+    font-family : Poppins, sans-serif;
+    border-radius : 5px;
+}
+.my-del-btn:hover{
+    background-color: #a00;
+}
+
+.my-detail-btn{
+    background-color : rgb(0, 2, 136);
+    color : white;
+    padding :0.3px 2px;
+    text-decoration:none;
+    font-family : Poppins, sans-serif;
+    border-radius : 5px;
+}
+.my-detail-btn:hover{
+    background-color: rgb(59, 23, 218);
+}
+
+.my-update-btn{
+    background-color : rgb(0, 136, 0);
+    color : white;
+    padding :0.3px 2px;
+    text-decoration:none;
+    font-family : Poppins, sans-serif;
+    border-radius : 5px;
+}
+.my-update-btn:hover{
+    background-color: rgb(160, 218, 23);
+}
+
+.all-student-btn{
+    background-color : rgb(0, 2, 136);
+    color : white;
+    padding :0.3px 2px;
+    text-decoration:none;
+    font-family : Poppins, sans-serif;
+    border-radius : 5px;
+}
+.all-student-btn:hover{
+    background-color: rgb(59, 23, 218);
+} */
+
+
+
+/*===========table==============*/
+/* .table{
+    height: 200px;
+    overflow-y: scroll;
+    border-radius: 3rem;
+    
+  }
+  
+  table{
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  
+  tr{
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  td,
+  th{
+    padding-block: 10px;
+  }
+  
+  .edit{
+    color: #70d7a5;
+    margin-right: 10px;
+  }
+  
+  .delete{
+    color: #e86786;
+  }
+  
+  .pending{
+    color: #f1d243;
+  }
+  
+  .confirmed{
+    color: #70d7a5;
+  }
+  
+  .rejected{
+    color: #e86786;
+  }
+   */
